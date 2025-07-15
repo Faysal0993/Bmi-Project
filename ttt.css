@@ -1,0 +1,101 @@
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+/* Container with max-width for responsiveness */
+.container {
+  border: 2px solid #0b71c4;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Input groups with icons */
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.input-group i {
+  margin-right: 8px;
+  color: #0b71c4;
+  font-size: 18px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px 25px;
+  background-color: #0b71c4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button i {
+  margin-right: 5px;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+  font-size: 16px;
+}
+
+#result i {
+  margin-right: 5px;
+  color: green;
+}
+
+/* ✅ Media Query: Adjust font sizes and layout on smaller screens */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  input {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  #result {
+    font-size: 14px;
+  }
+}
